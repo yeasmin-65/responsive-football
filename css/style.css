@@ -1,0 +1,439 @@
+/* Style Css Start */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Style--- navgation bar start */
+.navgationbar{
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+    margin: 0 auto;
+    margin-bottom: -130px;
+    font-family: 'Poppins',sans-serif;
+    padding: 20px 50px;
+}
+/* Style--- navgation- navitems start */
+.navitems{
+    display: flex;
+    margin-right: 280px;
+}
+.navitems ul{
+    display: flex;
+    margin:0 45px;
+    align-items: center;
+    justify-content: center;
+}
+
+.navitems ul li{
+    margin-right: 34px;
+    list-style: none;
+    
+
+}
+.active{
+  background: #ffffff25;
+  padding: 8px 10px;
+}
+
+.navitems ul li a{
+     text-decoration: none;
+     list-style: none;
+     font-family: 'Poppins',
+     sans-serif;
+     color: #ffffff;
+     font-size: 16px;
+     padding: 8px 10px;
+     transition: 0.6s;
+     text-decoration: none;
+     
+     
+}
+.navitems ul li a:hover {
+    background: #ffffff25;
+    padding: 8px 10px;
+}
+/* Style--- navgation- togglebar- start */
+.checkbtn{
+    font-size: 24px;
+    color: #ffffff;
+    cursor: pointer;
+    display: none;
+}
+#ckeck{
+    display: none;
+}
+/* Style--- navgation- btn- start */
+
+.nav-btn{
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   padding: 10px 24px;
+   font-family: 'Poppins',
+   sans-serif;
+   background-color: #E02C6D;
+   border: none;
+   color: #ffffff;
+   font-size: 16px;
+   transition: 0.5s ease-in-out;
+
+
+}
+.nav-btn:hover{
+     background: #ffffff;
+     color: #E02C6D;
+}
+.nav-btn i{
+    margin-right: 8px;
+}
+/* Style--- navgation bar end */
+
+
+
+ /* start css hero area section */
+
+  .hero-area{
+      background: #2D25A0;
+      width: 100%;
+      height: 687px;
+      padding: 100px 100px;
+
+
+  }
+  .hero-part{
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      padding: 100px 0;
+  }
+  /* start css hero area text section */
+  .hero-area-txt{
+    width: 50%;
+  }
+  .hero-area-txt h2{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 100px;
+    color: #FFFFFF;
+    margin-bottom: 27px;
+  }
+  .hero-btn {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      padding: 8px 24px;
+      font-family: 'Poppins',sans-serif;
+      background-color: #E02C6D;
+      border: none;
+      color: #ffffff;
+      font-size: 16px;
+      transition: 0.5s ease-in-out;
+     
+  }
+  .hero-btn:hover {
+      background: #ffffff;
+      color: #E02C6D;
+      border: 1px solid #E02C6D;
+  }
+
+
+  .hero-btn i {
+      margin-left: 8px;
+  }
+  
+ /* start css hero area img section */
+  .hero-area-img{
+       width: 50%;
+       
+  }
+  .hero-area-img img{
+     width: 100%;
+     transition: transform 0.8s ease-in-out;
+  }
+  .hero-area-img:hover img {
+      transform: rotate(15deg)
+  }
+
+/* end css hero area section */
+
+
+/* strat css blog area section */
+
+.blog-area{
+
+    padding: 70px 100px;
+}
+.blogs{
+
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   grid-column-gap: 30px;
+   
+}
+.blog{
+   width: 330px;
+   box-shadow: 0px 0px 40px rgba(150, 148, 148, 0.212);
+   padding: 15px;
+   background: #FFFFFF;
+   margin-bottom: 27px;
+   overflow: hidden;
+}
+.blog img{
+    width: 100%;
+    height: 256px;
+    margin-bottom: 16px; 
+}
+
+.blog h2{
+    margin-bottom: 10px;
+    font-weight: 700;
+    font-size: 28px;
+    font-family: Poppins;
+    color: #18191F;
+}
+.blog p{
+    font-size: 16px;
+    line-height: 26px;
+    color: #6C6C6C;
+}
+ /* end css blog area section */
+
+
+  /* strat css about area section */
+.about-area{
+   display: flex;
+   padding: 40px 100px;
+   justify-content: space-between;
+   align-items: center;
+   font-family: Poppins;
+}
+.about-txt{
+    width: 50%;
+    margin-right: 66px;
+}
+
+.about-txt h2{
+     font-weight: 700;
+     font-size: 48px;
+     line-height: 60px;
+     margin-bottom: 8px;
+     color: #0A0826;
+}
+.about-txt p{
+    font-size: 16px;
+    line-height: 28px;
+    color: #6C6C6C;
+    font-family: Poppins;
+    margin: 0 60px 24px 0;
+}
+.image{
+    width: 50%;
+    overflow: hidden;
+}
+
+.image img {
+    width: 567px;
+    height: 427px;
+    
+}
+
+/* end css about area section */
+
+/* start css footer area section */
+.footer-area{
+    text-align: center;
+    padding: 100px;
+}
+.footer-area img{
+    width: 450px;
+}
+.icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+.icon i{
+  margin: 14px;
+  background: #6c6c6c42;
+  padding: 7px;
+  border-radius: 25px;
+  color:#6c6c6c9d;
+  margin-bottom: 20px;
+  transition: background-color 0.5s ease-in-out;
+}
+.footer-area p{
+    font-size: 18px;
+    font-family: Poppins;
+}
+.icon i:hover{
+    background-color: #E02C6D;
+    color: #ffffff;
+    
+    
+}
+/* end css footer area section */
+
+/* responsive style device frindly */
+
+@media (max-width:767px){
+    /* start css navgationbar area section */
+     .navgationbar{
+         padding: 0 20px;
+         margin-right: 5px;
+    }
+     .navitems{
+         width: 50%;
+     }
+     .navitems ul{
+         flex-direction: column;
+     } 
+     .navitems ul li a{
+         font-size: 16px;
+         color: #000000;
+         
+
+     }
+     .navitems ul li{
+            line-height: 20px;
+            margin: 20px 0;
+     }
+     .navitems ul li a:hover {
+         background: transparent;
+         color: rgb(241, 15, 15);
+     }
+     .active{
+         background: transparent;    
+     }
+    
+     .nav-btn{
+         display: none;
+     }
+     .checkbtn {
+         display: block;
+     }
+     .navitems ul{
+         position: fixed;
+         width: 150%;
+         height: 100vh;
+         background: #fbfcff59;
+         top: 60px;
+         left: 150%;
+         text-align: center;
+         transition: all .5s;
+        
+     }
+     
+    .checkbtn:hover ul{
+         left: 0;
+     }
+
+ /* start css hero-area area section */
+     .hero-area{
+         padding: 40px 40px;
+
+     }
+  .hero-part{
+      flex-direction: column;
+     }
+     .hero-area-txt{
+         width: 100%;
+     }
+     .hero-area-txt h2{
+         font-size: 36px;
+         line-height: 50px;
+     }
+     .hero-btn{
+        padding: 5px 15px;
+        text-align: center;
+     }
+     .hero-area-img{
+         width: 100%;
+         margin-top: 40px;
+         text-align: center;
+     }
+     .hero-area-img img{
+         width: 90%;
+     }
+ /* start css blog-area area section */
+     .blog-area{
+         padding: 0;
+         margin: 0;
+     }
+   .blogs{
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       padding: 47px 0;
+
+
+   }
+   .blog{
+       margin-right: 0;
+   }
+/* start css about-area area section */
+   .about-area{
+       flex-direction: column;
+       padding: 0;
+   }
+   .about-txt{
+       width: 100%;
+       display: flex;
+       flex-direction: column;
+       align-items: flex-start;
+       justify-content: center;
+       margin: 0px;
+       padding: 0 20px 0 45px;
+   }
+   .about-txt h2{
+       font-weight: 700;
+       font-size: 30px;
+       line-height: 40px;
+   }
+   .about-txt p{
+       font-size: 16px;
+       line-height: 28px;
+       margin: 0 0 24px 0;
+   }
+   
+   .image{
+     width: 100%;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     margin: 29px 0 0 0;
+     padding: 0;
+   }
+   .image img {
+       width: 80%;
+       
+   }
+/* start css footer-area area section */
+    .footer-area{
+        padding: 49px 0;
+
+    }
+    .footer-area img {
+        margin-bottom: 29px;
+        width: 65%;
+    }
+    .icon i {
+        margin: 5px 5px 20px 5px;
+        margin-bottom: 20px;
+        transition: background-color 0.5s ease-in-out;
+    }
+
+}
+.footer-area-text{
+    color: #E02C6D;
+    margin-top: 12px;
+}
+/* Style Css end */
